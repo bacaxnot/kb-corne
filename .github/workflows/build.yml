@@ -45,7 +45,7 @@ jobs:
       - name: Archive (Corne/Sweep Left)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware
+          name: firmware-left
           path: corne_left_nice_nano_v2.uf2
       - name: West Build (Corne/Sweep Right)
         run: west build --pristine -s zmk/app -b nice_nano_v2 -- -DSHIELD=corne_right -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
@@ -57,5 +57,5 @@ jobs:
       - name: Archive (Corne/Sweep Right)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware
+          name: firmware-right
           path: corne_right_nice_nano_v2.uf2
