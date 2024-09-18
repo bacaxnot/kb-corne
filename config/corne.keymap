@@ -47,10 +47,10 @@
 
         default_layer {
             bindings = <
-&none  &kp Q             &kp W               &kp E                            &kp R       &kp T         &kp Y  &kp U          &kp I                       &kp O                &kp P                    &kp BACKSPACE
-&none  &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LALT D                       &hm LGUI F  &kp G         &kp H  &hm RGUI J     &hm RALT K                  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMI     &kp SINGLE_QUOTE
-&none  &kp Z             &kp X               &kp C                            &kp V       &kp B         &kp N  &kp M          &kp COMMA                   &kp PERIOD           &td LG(SLASH) BACKSLASH  &none
-                                             &mt LC(UP_ARROW) LC(LEFT_ARROW)  &kp SPACE   &caps_word    &to 1  &kp LC(ENTER)  &mt LC(UP_ARROW) LC(RIGHT)
+&none  &kp Q             &kp W               &kp E                            &kp R       &kp T         &kp Y  &kp U       &kp I                       &kp O                &kp P                    &kp BACKSPACE
+&none  &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LALT D                       &hm LGUI F  &kp G         &kp H  &hm RGUI J  &hm RALT K                  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMI     &kp SINGLE_QUOTE
+&none  &kp Z             &kp X               &kp C                            &kp V       &kp B         &kp N  &kp M       &kp COMMA                   &kp PERIOD           &td LG(SLASH) BACKSLASH  &none
+                                             &mt LC(UP_ARROW) LC(LEFT_ARROW)  &kp SPACE   &caps_word    &to 1  &kp ENTER   &mt LC(UP_ARROW) LC(RIGHT)
             >;
         };
 
