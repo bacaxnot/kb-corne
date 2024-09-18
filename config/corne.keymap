@@ -45,7 +45,6 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                display-name = "Base";
                 bindings = <
 		&none &kp Y &kp C &kp L &kp M &kp K 					&kp Z &kp F  &kp U    &td MINUS COMMA  &kp BKSP &none
 		&none &kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O &none
@@ -55,7 +54,6 @@
 		};
 
                 left_layer {
-                display-name = "Left";
                 bindings = <
 		&none &kp ESC      &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &kp BKSP &none
 		&none &kp TAB      &kp EQUAL  &kp LA(RBKT)       &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER &none
@@ -65,7 +63,6 @@
 		};
 
                 right_layer {
-                display-name = "Right";
                 bindings = <
 		&none &kp ESC  &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &trans &none
 		&none &kp TAB  &trans   &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER &none
@@ -75,7 +72,6 @@
 		};
 
                 tri_layer {
-                display-name = "Tri";
 		bindings = <
 		&none &trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp NUM_5 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans &none
 		&none &kp F1 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp DEL  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER &none
@@ -85,7 +81,6 @@
 		};
 
                 bt {
-                display-name = "BT";
 		bindings = <
 		&none &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &none 
 		&none &trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans &none 
