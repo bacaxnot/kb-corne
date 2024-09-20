@@ -27,8 +27,6 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-
-            quick-tap-ms = <0>;
         };
 
         td: tapdance {
