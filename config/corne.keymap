@@ -64,9 +64,9 @@
 
         tri_layer {
             bindings = <
-&none   &trans               &mwh SCROLL_LEFT  &mmv MOVE_UP      &mwh SCROLL_RIGHT  &kp LG(LEFT_BRACKET)    &kp LG(RIGHT_BRACKET)  &kp LC(LS(TAB))    &kp UP            &kp LC(TAB)      &trans  &none
-&none   &kp LEFT_SHIFT       &kp LEFT_ALT      &kp LEFT_CONTROL  &kp LEFT_GUI       &none                   &none                  &kp LEFT_ARROW     &kp DOWN          &kp RIGHT        &none   &none
-&trans  &td LG(GRAVE) GRAVE  &none             &mwh SCROLL_UP    &mwh SCROLL_DOWN   &none                   &none                  &kp K_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &none
+&none   &trans               &mwh SCROLL_LEFT  &mmv MOVE_UP      &mwh SCROLL_RIGHT  &kp LG(LEFT_BRACKET)    &kp LG(RIGHT_BRACKET)  &kp LC(LS(TAB))    &kp UP            &kp LC(TAB)      &kp BACKSPACE  &none
+&none   &kp LEFT_SHIFT       &kp LEFT_ALT      &kp LEFT_CONTROL  &kp LEFT_GUI       &none                   &none                  &kp LEFT_ARROW     &kp DOWN          &kp RIGHT        &none          &none
+&trans  &td LG(GRAVE) GRAVE  &none             &mwh SCROLL_UP    &mwh SCROLL_DOWN   &none                   &none                  &kp K_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP  &trans         &none
                                                &to 0             &trans             &trans                  &trans                 &trans             &to 0
             >;
         };
