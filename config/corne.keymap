@@ -5,18 +5,13 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
 &mt {
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
-};
-
-&mmv {
-    time-to-max-speed-ms = <680>;
-    acceleration-exponent = <2>;
 };
 
 / {
@@ -65,9 +60,9 @@
 
         arrows {
             bindings = <
-&trans  &trans               &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &kp LG(LEFT_BRACKET)    &kp LG(RIGHT_BRACKET)  &kp LC(LS(TAB))    &kp UP            &kp LC(TAB)      &none   &trans
+&trans  &trans               &none             &none           &none              &kp LG(LEFT_BRACKET)    &kp LG(RIGHT_BRACKET)  &kp LC(LS(TAB))    &kp UP            &kp LC(TAB)      &none   &trans
 &trans  &kp LEFT_SHIFT       &kp LEFT_CONTROL  &kp LEFT_ALT    &kp LEFT_GUI       &none                   &none                  &kp LEFT_ARROW     &kp DOWN          &kp RIGHT        &none   &trans
-&trans  &td LG(GRAVE) GRAVE  &none             &mwh SCROLL_UP  &mwh SCROLL_DOWN   &none                   &none                  &kp K_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp C_VOLUME_UP  &trans  &none
+&trans  &td LG(GRAVE) GRAVE  &none             &none  &none    &none              &none                   &kp K_VOLUME_DOWN      &kp K_PLAY_PAUSE   &kp C_VOLUME_UP   &trans  &none
                                                &trans          &trans             &trans                  &trans                 &trans             &trans
             >;
         };
